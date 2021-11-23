@@ -1,0 +1,41 @@
+body{
+    background-color: lightsalmon;
+}
+h1{
+    color: lightsalmon;
+    background-color: lightyellow;
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+canvas{
+    border :5px dotted limegreen;
+    border-radius: 20px;
+    margin-top: 70px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 50px palevioletred;
+
+    }
+    to{
+        box-shadow: 1px 1px 50px orchid;
+}
+}
+
+#score{
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+#time{
+font-size: 35px;
+margin-right: 20px;
+float: right;
+}
